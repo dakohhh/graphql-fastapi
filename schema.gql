@@ -1,0 +1,21 @@
+
+type User {
+    id: ID!
+
+    firstname: String
+
+    lastname: = String
+
+    username = String
+
+    email = EmailField(required=True, max_length=250)
+
+    password
+
+
+}
+
+
+type Query{
+    
+}
